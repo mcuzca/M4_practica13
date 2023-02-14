@@ -1,7 +1,6 @@
-#crear una clase de nombre user que tenga un constructor y atributos (mínimo 6),
-#Getters/Setters
-#Mètodo de nombre info donde se muestren, por pantalla, todos los datos (atributos) de user.
-
+# Crear una clase de nombre user que tenga un constructor y atributos (mínimo 6),
+# Getters/Setters
+# Mètodo de nombre info donde se muestren, por pantalla, todos los datos (atributos) de user.
 class user0:
     def __init__(self, nombre, edad, nacionalidad, dni, sexo, ciudad):
         self.nombre = nombre
@@ -10,6 +9,7 @@ class user0:
         self.dni = dni
         self.sexo = sexo
         self.ciudad = ciudad
+
     def getNombre(self):
         return self.nombre
     def setNombre(self, nombre):
@@ -34,6 +34,7 @@ class user0:
         return self.ciudad
     def setCiudad(self, ciudad):
         self.ciudad = ciudad
+
     def salutacio(self):
         print("El nombre es: " +self.nombre)
         print("Y la edad es: " +self.edad)

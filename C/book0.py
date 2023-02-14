@@ -1,7 +1,6 @@
 #crear una clase de nombre book que tenga un constructor y atributos (mínimo 6),
 #Getters/Setters
 #Mètodo de nombre info donde se muestren, por pantalla, todos los datos (atributos) de book.
-
 class book0:
     def __init__(self, titulo, año, paginas, autor, editorial, premios):
         self.titulo = titulo
@@ -10,8 +9,6 @@ class book0:
         self.autor = autor
         self.editorial = editorial
         self.premios = premios
-
-
 
     def getTitulo(self):
         return self.titulo
@@ -37,6 +34,7 @@ class book0:
         return self.premios
     def setPremios(self, premios):
         self.premios = premios
+
     def info(self):
         print("Se llama: " + set.titulo)
         print("Publicado en el año" + set.año)

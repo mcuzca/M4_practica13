@@ -1,7 +1,6 @@
 #crear una clase de nombre university que tenga un constructor, atributos (mínimo 6),
 #Getters/Setters
 #Mètodo de nombre info donde se muestren, por pantalla, todos los datos (atributos) de book.
-
 class university0:
     def __init__(self, nombre, biblioteca, clases, alumnos, profesores, materias):
         self.nombre = nombre
@@ -45,6 +44,7 @@ class university0:
 
     def setMaterias(self, materias):
         self.materias = materias
+
     def info1(self):
         print("El nombre es: " + self.nombre)
         print("Consta de" + self.biblioteca)
